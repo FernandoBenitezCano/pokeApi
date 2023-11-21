@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    height: 100vh;
+}
+
+.card {
+    height: 33%;
+    background: #1d1c1c;
+    display: flex;
+    border-radius: 7%;
+    width: 15%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    box-shadow: 3px 0px 9px 2px rgba(0, 0, 0, 0.8);
+    color:#fff
+}
+
+
+
+.poke-image{
+    height: 70%;
+}
+
+.poke-name{
+    margin-top: 2%;
+    font-size: 30px;
+}
+
+.poke-id{
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+.pokeball{
+    position: absolute;
+    height: 225px;
+}
+
+.hide{
+    display: none;
+}
